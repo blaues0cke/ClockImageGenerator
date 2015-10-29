@@ -1,4 +1,5 @@
-.clock {
+.clock
+{
   border-radius: 50%;
   background: #fff url(ios_clock.svg) no-repeat center;
   background-size: 88%;
@@ -7,15 +8,18 @@
   position: relative;
   width: 40em;
 }
-
-.minutes-container, .hours-container, .seconds-container {
+.minutes-container,
+.hours-container,
+.seconds-container
+{
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
-.hours {
+.hours
+{
   background: #000;
   height: 20%;
   left: 48.75%;
@@ -24,7 +28,8 @@
   transform-origin: 50% 100%;
   width: 2.5%;
 }
-.minutes {
+.minutes
+{
   background: #000;
   height: 40%;
   left: 49%;
@@ -33,7 +38,8 @@
   transform-origin: 50% 100%;
   width: 2%;
 }
-.seconds {
+.seconds
+{
   background: #F00;
   height: 45%;
   left: 49.5%;
@@ -106,12 +112,12 @@
 }
 #colors
 {
-		clear: both;
+    clear: both;
 	padding: 50px 0 0 0;
 }
 #colors input
 {
-	    height: 50px;
+    height: 50px;
     width: 154px;
 	margin: 0 0 5px 0;
 }

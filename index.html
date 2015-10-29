@@ -7,68 +7,61 @@
 		<title>Clock generator</title>
 		<link rel="stylesheet" href="bootstrap.min.css">
 		<link rel="stylesheet" href="clock.css">
-
 	</head>
 	<body>
-<div id="clock">
+		<div id="clock">
+			<article class="clock">
+		  		<div class="hours-container" id="hours-container">
+					<div class="hours" id="hour-pointer">
 
+					</div>
+				</div>
+				<div class="minutes-container" id="minutes-container">
+					<div class="minutes" id="minute-pointer">
 
-<article class="clock">
-  <div class="hours-container" id="hours-container">
-    <div class="hours" id="hour-pointer"></div>
-  </div>
-  <div class="minutes-container" id="minutes-container">
-    <div class="minutes" id="minute-pointer"></div>
-  </div>
-  <div class="seconds-container" id="seconds-container">
-    <div class="seconds" id="second-pointer"></div>
-  </div>
-  <div id="center"></div>
-</article>
-</div>
+					</div>
+				</div>
+			  	<div class="seconds-container" id="seconds-container">
+					<div class="seconds" id="second-pointer">
 
-<div id="controller">
-<label class="input">Hour</label>
-<input type="number" id="hour" min="0" max="23">
-<label class="checkbox"><input id="showHour" type="checkbox" data-target="hours-container" value="1" checked="checked"></label>
+					</div>
+			  	</div>
+				<div id="center">
 
-<label class="input">Minute</label>
-<input type="number" id="minute" min="0" max="59">
-<label class="checkbox"><input id="showMinute" type="checkbox" data-target="minutes-container" value="1" checked="checked"></label>
-
-<label class="input">Second</label>
-<input type="number" id="second" min="0" max="59">
-<label class="checkbox"><input id="showSecond" type="checkbox" data-target="seconds-container" value="1" checked="checked"></label>
-
-<label class="input">Zoom</label>
-<input type="number" id="zoom" min="100" max="500" value="100">
-
-<div id="colors">
-<label class="input">Hour</label>
-<input type="color" id="hourColor" value="#000" data-target="hour-pointer">
-<label class="input">Minute</label>
-<input type="color" id="minuteColor" value="#000" data-target="minute-pointer">
-<label class="input">Second</label>
-<input type="color" id="secondColor" value="#Ff0000" data-target="second-pointer">
-<label class="input">Center</label>
-<input type="color" id="centerColor" value="#000000" data-target="center">
-<label class="input">Clock</label>
-<input type="color" id="clockColor" value="#000" data-target="clock">
-
-
-
-</div>
-
-
-<div id="download">
-  <button type="button" class="btn btn-primary">Download</button>
-</div>
-</div>
-	
-	
-	<script type="text/javascript" src="jquery.min.js"></script>
-	<script type="text/javascript" src="bootstrap.min.js"></script>
-	<script type="text/javascript" src="html2canvas.js"></script>
-	<script type="text/javascript" src="clock.js"></script>
+				</div>
+			</article>
+		</div>
+		<div id="controller">
+			<label class="input">Hour</label>
+			<input type="number" id="hour" min="0" max="23">
+			<label class="checkbox"><input id="showHour" type="checkbox" data-target="hours-container" value="1" checked="checked"></label>
+			<label class="input">Minute</label>
+			<input type="number" id="minute" min="0" max="59">
+			<label class="checkbox"><input id="showMinute" type="checkbox" data-target="minutes-container" value="1" checked="checked"></label>
+			<label class="input">Second</label>
+			<input type="number" id="second" min="0" max="59">
+			<label class="checkbox"><input id="showSecond" type="checkbox" data-target="seconds-container" value="1" checked="checked"></label>
+			<label class="input">Zoom</label>
+			<input type="number" id="zoom" min="100" max="500" value="100">
+			<div id="colors">
+				<label class="input">Hour</label>
+				<input type="color" id="hourColor" value="#000" data-target="hour-pointer">
+				<label class="input">Minute</label>
+				<input type="color" id="minuteColor" value="#000" data-target="minute-pointer">
+				<label class="input">Second</label>
+				<input type="color" id="secondColor" value="#Ff0000" data-target="second-pointer">
+				<label class="input">Center</label>
+				<input type="color" id="centerColor" value="#000000" data-target="center">
+				<label class="input">Clock</label>
+				<input type="color" id="clockColor" value="#000" data-target="clock">
+			</div>
+			<div id="download">
+		  		<button type="button" class="btn btn-primary">Download</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap.min.js"></script>
+		<script type="text/javascript" src="html2canvas.js"></script>
+		<script type="text/javascript" src="clock.js"></script>
 	</body>
 </html>

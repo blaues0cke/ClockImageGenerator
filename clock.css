@@ -1,0 +1,122 @@
+.clock {
+  border-radius: 50%;
+  background: #fff url(ios_clock.svg) no-repeat center;
+  background-size: 88%;
+  height: 40em;
+  padding-bottom: 31%;
+  position: relative;
+  width: 40em;
+}
+
+.minutes-container, .hours-container, .seconds-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.hours {
+  background: #000;
+  height: 20%;
+  left: 48.75%;
+  position: absolute;
+  top: 30%;
+  transform-origin: 50% 100%;
+  width: 2.5%;
+}
+.minutes {
+  background: #000;
+  height: 40%;
+  left: 49%;
+  position: absolute;
+  top: 10%;
+  transform-origin: 50% 100%;
+  width: 2%;
+}
+.seconds {
+  background: #F00;
+  height: 45%;
+  left: 49.5%;
+  position: absolute;
+  top: 14%;
+  transform-origin: 50% 80%;
+  width: 1%;
+  z-index: 8;
+}
+#center {
+    background: #000;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 4%;
+    height: 4%;
+    z-index: 10;
+}
+#clock
+{
+    width: 600px;
+    margin: 100px auto;
+    background: lightgray;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 3px 2px 0px rgba(0, 0, 0, 0.3);
+}
+#controller
+{
+	width: 318px;
+	margin: 0 auto;
+}
+#controller label.input
+{
+	clear: both;
+	font-size: 34px;
+	float: left;
+	display: block;
+	width: 134px;
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+#controller input[type=number]
+{
+	float: left;
+	display: block;
+	width: 100px;
+	text-align: right;
+	padding: 0 5px 0 0;
+	height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#controller label.checkbox
+{
+	float: right;
+	display: block;
+	margin: -4px 0 0 -20px;
+    zoom: 4;
+}
+#controller button
+{
+	display: block;
+	clear: both;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+#colors
+{
+		clear: both;
+	padding: 50px 0 0 0;
+}
+#colors input
+{
+	    height: 50px;
+    width: 154px;
+	margin: 0 0 5px 0;
+}
+#download
+{
+	clear: both;
+	padding: 50px 0 0 0;
+}
